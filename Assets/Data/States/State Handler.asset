@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8758276c20f40e74d9415ed20f6355de, type: 3}
+  m_Name: State Handler
+  m_EditorClassIdentifier: 
+  allStatesOrdered:
+  - {fileID: 11400000, guid: fb78cb15d78cdb543ac913a44951a06e, type: 2}
+  - {fileID: 11400000, guid: 8965bc7e8a950874fad82bcec905ab11, type: 2}
+  - {fileID: 11400000, guid: eb1940790b1f72b4f943f045d567d73a, type: 2}
+  collidersInLocation: {fileID: 11400000, guid: 7a839a9074cf348498f960d641e9ed0c,
+    type: 2}
+  collidersNotInLocation: {fileID: 11400000, guid: 7b878014a34d23c4c970c5de2a9bffd4,
+    type: 2}
+  moveObjectState: {fileID: 11400000, guid: 2e0cbee246f45554580f65d54a837d2d, type: 2}
+  dropObjectState: {fileID: 11400000, guid: e3ff54573dc14d7418d549f031bc09e9, type: 2}
