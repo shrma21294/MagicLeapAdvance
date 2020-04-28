@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Magic Leap Unity Template LWRP
+  productName: Ultrasound
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -662,7 +662,7 @@ PlayerSettings:
     m_ModelFolderPath: 
     m_PortalFolderPath: 
   luminCert:
-    m_CertPath: /Users/sengelman/Documents/certs/ml/prod/prod-work-mac.cert
+    m_CertPath: C:/Users/kxs1240/MagicLeap/certificates/komal.cert
     m_SignPackage: 1
   luminIsChannelApp: 0
   luminVersion:

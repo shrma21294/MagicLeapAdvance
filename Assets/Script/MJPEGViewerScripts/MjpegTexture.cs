@@ -37,7 +37,7 @@ public class MjpegTexture : MonoBehaviour
     float deltaTime = 0.0f;
     float mjpegDeltaTime = 0.0f;
 
-
+    GameObject panel;
 
 
 
@@ -59,6 +59,8 @@ public class MjpegTexture : MonoBehaviour
     void OnMjpegError(object sender, ErrorEventArgs e)
     {
         Debug.Log("Error received while reading the MJPEG.");
+
+        Debug.Log("Exac erorr -------" +e.Message);
     }
 
     // Update is called once per frame
@@ -77,8 +79,11 @@ public class MjpegTexture : MonoBehaviour
             mjpegDeltaTime += (deltaTime - mjpegDeltaTime) * 0.2f;
 
             deltaTime = 0.0f;
+
         }
     }
+
+    
 
     void DrawFps()
     {

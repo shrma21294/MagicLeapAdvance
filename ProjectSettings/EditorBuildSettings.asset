@@ -5,9 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/EmptyScene.unity
     guid: 102ec66d67b1d4913a8a47657c1e8982
+  - enabled: 0
+    path: Assets/MagicLeap/Examples/Scenes/VideoCapture.unity
+    guid: 14c17404942524712996f803abef0537
+  - enabled: 1
+    path: Assets/Scenes/MJPEGViewer.unity
+    guid: 626541354254e4b40a22614ee79a5636
+  - enabled: 0
+    path: Assets/UniversalMediaPlayer/Scenes/ARVideoCanvasExample.unity
+    guid: b84557a93e60dc540be75b982061cbf7
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2ba4dbd235ed941bb8fdb5a40ab00f22,
       type: 2}

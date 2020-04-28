@@ -90,3 +90,11 @@ MonoBehaviour:
     enabled: 1
   - name: SocialConnectionsInvitesAccess
     enabled: 1
+  - name: ConnectionAccess
+    enabled: 1
+  - name: DesktopCompanion
+    enabled: 0
+  - name: Expressions
+    enabled: 0
+  - name: ConnectionAudioCaptureStreaming
+    enabled: 1
